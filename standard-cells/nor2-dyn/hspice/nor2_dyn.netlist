@@ -1,0 +1,15 @@
+* nor2_dyn_netlist.sp
+* bd68@njit.edu 19Feb22
+
+*subcircuit netlist
+.subckt NOR2D clk a b y x vdd vss
+.param K_LEN=8
+*pullup network
+M1 x  clk vdd  vdd CMOSP W=4 L=2
+M2 d2 vss vdd  vdd CMOSP W=4 L='K_LEN-2'
+M3 x  y  d2    vdd CMOSP W=4 L=2
+*pulldown network
+M4 x  a   d6  vss CMOSN W=8 L=2
+M5 x  b   d6  vss CMOSN W=8 L=2
+M6 d6 clk vss vss CMOSN W=8 L=2
+.ends
