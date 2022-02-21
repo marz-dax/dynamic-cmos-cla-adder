@@ -18,16 +18,16 @@
 > 
 > Transient output voltage waveforms. x1{w/nodes a=1 b=0 y=1]} x2{w/nodes a=0 b=0 y=0]}.
 > 
-> <img src="https://github.com/marz-dax/vlsi/blob/17cc37f1b42bfdc290ab3d8e605193e8295cdeb8/dynamic-cmos-cla-adder/standard-cells/or2-dyn/hspice/or2_dyn_trans.png" width="800">
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans.png" width="800">
 > 
 > transient output voltage waveforms (parasitic extraction).
 > 
-> <img src="https://github.com/marz-dax/vlsi/blob/17cc37f1b42bfdc290ab3d8e605193e8295cdeb8/dynamic-cmos-cla-adder/standard-cells/or2-dyn/hspice/or2_dyn_trans_pex.png" width="800">
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans_pex.png" width="800">
 > 
 # Schematic
 >
-> <img src="https://github.com/marz-dax/vlsi/blob/17cc37f1b42bfdc290ab3d8e605193e8295cdeb8/dynamic-cmos-cla-adder/standard-cells/or2-dyn/schematic/or2_dyn_sch.png" width="800">
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/schematic/nor2_dyn_sch.png" width="800">
 >
 # Layout
 >
-> <img src="https://github.com/marz-dax/vlsi/blob/17cc37f1b42bfdc290ab3d8e605193e8295cdeb8/dynamic-cmos-cla-adder/standard-cells/or2-dyn/layout/or2_dyn_layout.png" width="800">
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/layout/nor2_dyn_layout.png" width="800">
