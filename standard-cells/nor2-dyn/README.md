@@ -4,7 +4,7 @@
 > 
 > ```
 > .subckt NOR2D clk a b y x vdd vss
-> .param K_LEN=8
+> .param K_LEN=4
 > *pullup network
 > M1 x  clk vdd  vdd CMOSP W=4 L=2
 > M2 d2 vss vdd  vdd CMOSP W=4 L='K_LEN-2'
@@ -22,10 +22,19 @@
 > 
 > transient output voltage waveforms (parasitic extraction).
 > 
+> Falling propagation delay of 44.5ps. Rising propagation delay of 85.4ps
+> 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans_pex.png" width="800">
 > 
 # Schematic
->
+> Keepers are used to holds the output at the correct level when it would otherwise float.
+> 
+> Increasing the length the effective keeper would make it weaker than a minimum-sized transistor. 
+> 
+> A long keeper will increase the capacitive load on the input node Y, however by splitting the keeper this is avoided. 
+> 
+> note: MP2 should be W=4 and L=4
+> 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/f2d99f658f488e8e83a77c1b8d590519ab6af029/standard-cells/nor2-dyn/schematic/nor2_dyn_sch.png" width="800">
 >
 # Layout
