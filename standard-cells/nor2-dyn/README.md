@@ -34,7 +34,7 @@
 > 
 > A long keeper will increase the capacitive load on the input node Y, however by splitting the keeper this is avoided. 
 > 
-> note: MP2 should be W=4 and L=4. The effective length is 6
+> note: MP2 should be W=4 and L=4. The effective length is 4
 > 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/f2d99f658f488e8e83a77c1b8d590519ab6af029/standard-cells/nor2-dyn/schematic/nor2_dyn_sch.png" width="800">
 >
