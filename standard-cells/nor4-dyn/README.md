@@ -25,10 +25,15 @@
 > x1{w/nodes a=1, b=c=d=0, y=1]}
 > x5{w/nodes a=b=c=d=0, y=0]}.
 > 
-> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor4-dyn/hspice/nor4_dyn_trans.png" width="800">
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/50c9de0080f1d7235a2fab315b4a229ecd22ff2d/standard-cells/nor4-dyn/hspice/nor4_dyn_trans.png" width="800">
 >
 # Schematic
-> Keepers are implemented the same way as the dynamic 2-input NOR gate.
-> 
-> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/f2d99f658f488e8e83a77c1b8d590519ab6af029/standard-cells/nor4-dyn/nor4_dyn_sch.png" width="800">
 >
+> Keepers are implemented the same way as the dynamic 2-Input NOR gate.
+> 
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/50c9de0080f1d7235a2fab315b4a229ecd22ff2d/standard-cells/nor4-dyn/schematic/nor4_dyn_sch.png" width="800">
+>
+# Layout
+> Height = 90 lambda | Width = 64 lambda
+>
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/50c9de0080f1d7235a2fab315b4a229ecd22ff2d/standard-cells/nor4-dyn/layout/nor4_dyn_layout.png" width="800">

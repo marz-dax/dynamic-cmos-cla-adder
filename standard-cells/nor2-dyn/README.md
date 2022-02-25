@@ -40,4 +40,6 @@
 >
 # Layout
 >
+> Height = 90 lambda | Width = 44 lambda
+>
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/f2d99f658f488e8e83a77c1b8d590519ab6af029/standard-cells/nor2-dyn/layout/nor2_dyn_layout.png" width="800">
