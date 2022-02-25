@@ -5,7 +5,10 @@
 # Tools
 >
 > Synopsys HSPICE
+> 
 > Mentor Graphics IC Station Schematic Editor
+> 
 > Mentor Graphics IC Station Layout Editor
+> 
 > TSMC 180nm technology node
 >
