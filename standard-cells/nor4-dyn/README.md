@@ -33,7 +33,7 @@
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d2b0d88ea8ae8259ddae1725250c8742ba98662b/standard-cells/nor4-dyn/hspice/nor4_dyn_trans_pex.png" width="800">
 > 
 > VTC (parasitic extraction). 
-> Noise Margin LOW = .76 V. Noise Margin HIGH = .97 V
+> Noise Margin LOW = .50 V. Noise Margin HIGH = .1.01 V
 > 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/cfdefaeaf3453df97635f32967d56953fce392f8/standard-cells/nor4-dyn/hspice/nor4_dyn_dc.png" width="800">
 > 
