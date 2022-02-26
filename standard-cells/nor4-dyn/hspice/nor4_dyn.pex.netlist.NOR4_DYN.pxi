@@ -1,0 +1,30 @@
+* File: nor4_dyn.pex.netlist.NOR4_DYN.pxi
+* Created: Sat Feb 26 03:04:35 2022
+* 
+x_PM_NOR4_DYN%CLK N_CLK_M0_g N_CLK_M5_g CLK PM_NOR4_DYN%CLK
+x_PM_NOR4_DYN%B N_B_M1_g B PM_NOR4_DYN%B
+x_PM_NOR4_DYN%Y N_Y_M6_g Y PM_NOR4_DYN%Y
+x_PM_NOR4_DYN%A N_A_M2_g A PM_NOR4_DYN%A
+x_PM_NOR4_DYN%C N_C_M3_g C PM_NOR4_DYN%C
+x_PM_NOR4_DYN%D N_D_M4_g D PM_NOR4_DYN%D
+x_PM_NOR4_DYN%X N_X_c_8_n N_X_c_13_p N_X_c_9_n N_X_c_11_p N_X_M6_s N_X_M5_d
++ N_X_M2_s N_X_M1_d N_X_M4_s N_X_M3_d X PM_NOR4_DYN%X
+x_PM_NOR4_DYN%GND N_GND_M0_b N_GND_c_17_n N_GND_M7_g N_GND_c_19_n GND
++ N_GND_c_16_n N_GND_M0_s PM_NOR4_DYN%GND
+x_PM_NOR4_DYN%VDD N_VDD_M5_b VDD N_VDD_M5_s N_VDD_M7_d PM_NOR4_DYN%VDD
+x_PM_NOR4_DYN%10 N_10_c_23_n N_10_c_25_n N_10_M1_s N_10_M0_d N_10_M3_s N_10_M2_d
++ N_10_M4_d PM_NOR4_DYN%10
+x_PM_NOR4_DYN%11 N_11_M7_s N_11_M6_d PM_NOR4_DYN%11
+cc_1 N_CLK_M0_g N_GND_c_16_n 0.07428f
+cc_2 N_B_M1_g N_10_c_23_n 0.0234f
+cc_3 N_Y_M6_g N_X_c_8_n 0.07428f
+cc_4 N_A_M2_g N_10_c_23_n 0.0234f
+cc_5 N_C_M3_g N_X_c_9_n 0.07428f
+cc_6 N_C_M3_g N_10_c_25_n 0.0234f
+cc_7 N_D_M4_g N_10_c_25_n 0.0234f
+cc_8 N_X_c_9_n N_GND_c_17_n 0.0185631f
+cc_9 N_X_c_11_p N_GND_c_17_n 0.0567173f
+cc_10 N_X_c_8_n N_GND_c_19_n 0.05469f
+cc_11 N_X_c_13_p N_GND_c_19_n 0.268596f
+cc_12 N_X_c_9_n N_GND_c_19_n 0.0121973f
+cc_13 N_X_c_11_p N_GND_c_19_n 0.00635364f
