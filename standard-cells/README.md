@@ -7,7 +7,7 @@ Dynamic 2-Input NOR Gate | ./nor2-dyn
 > 
 Dynamic 4-Input NAND Gate
 >
-> todo
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/50c9de0080f1d7235a2fab315b4a229ecd22ff2d/standard-cells/nor4-dyn/layout/nor4_dyn_layout.png" width="300">
 > 
 Dual Rail Domino 2-Input XOR Gate
 >
