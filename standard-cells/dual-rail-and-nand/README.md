@@ -26,11 +26,7 @@
 > Transient output voltage waveforms. 
 >
 > y1{w/nodes a_h=1, b_h=1, a_l=0, b_l=0}
-<<<<<<< HEAD
 > y2{w/nodes a_h=1, b_h=0, a_l=0, b_l=1}.
-=======
-> y2{w/nodes a_h=0, b_h=0, a_l=0, b_l=1}.
->>>>>>> 194e9720e58d3bf1e89f526fd5bcedc750a0dc3f
 > 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/b98f1184f7c8af464bbfbccba130b024da2a73d1/standard-cells/dual-rail-and-nand/hspice/dual_rail_and_nand_trans.png" width="800">
 > 
