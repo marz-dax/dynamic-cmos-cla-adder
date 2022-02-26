@@ -1,5 +1,5 @@
 * File: nor2_dyn.pex.netlist
-* Created: Sun Feb 20 17:09:52 2022
+* Created: Sat Feb 26 01:46:15 2022
 * Program "Calibre xRC"
 * Version "v2012.2_36.25"
 * 
@@ -13,12 +13,12 @@
 * Y	Y
 * B	B
 * CLK	CLK
-M0 N_7_M0_d N_CLK_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.564e-13
-+ AS=3.24e-13
-M1 N_X_M1_d N_B_M1_g N_7_M1_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.564e-13
-+ AS=3.564e-13
-M2 N_7_M2_d N_A_M2_g N_X_M2_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.24e-13
-+ AS=3.564e-13
+M0 N_7_M0_d N_CLK_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=7.2e-07 AD=5.184e-13
++ AS=4.05e-13
+M1 N_X_M1_d N_B_M1_g N_7_M1_s N_GND_M0_b n L=1.8e-07 W=7.2e-07 AD=5.184e-13
++ AS=5.184e-13
+M2 N_7_M2_d N_A_M2_g N_X_M2_s N_GND_M0_b n L=1.8e-07 W=7.2e-07 AD=4.05e-13
++ AS=5.184e-13
 M3 N_X_M3_d N_CLK_M3_g N_VDD_M3_s N_VDD_M3_b p L=1.8e-07 W=3.6e-07 AD=3.564e-13
 + AS=3.24e-13
 M4 N_9_M4_d N_Y_M4_g N_X_M4_s N_VDD_M3_b p L=1.8e-07 W=3.6e-07 AD=1.296e-13
@@ -26,7 +26,7 @@ M4 N_9_M4_d N_Y_M4_g N_X_M4_s N_VDD_M3_b p L=1.8e-07 W=3.6e-07 AD=1.296e-13
 M5 N_VDD_M5_d N_GND_M5_g N_9_M5_s N_VDD_M3_b p L=3.6e-07 W=3.6e-07 AD=3.24e-13
 + AS=1.296e-13
 *
-.include "or2_dyn.pex.netlist.NOR2_DYN.pxi"
+.include "nor2_dyn.pex.netlist.NOR2_DYN.pxi"
 *
 .ends
 *
