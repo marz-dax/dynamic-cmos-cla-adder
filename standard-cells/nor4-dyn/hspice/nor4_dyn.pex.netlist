@@ -1,0 +1,39 @@
+* File: nor4_dyn.pex.netlist
+* Created: Fri Feb 25 20:27:30 2022
+* Program "Calibre xRC"
+* Version "v2012.2_36.25"
+* 
+.include "nor4_dyn.pex.netlist.pex"
+.subckt NOR4_DYN  CLK B Y A C D X GND VDD
+* 
+* VDD	VDD
+* GND	GND
+* X	X
+* D	D
+* C	C
+* A	A
+* Y	Y
+* B	B
+* CLK	CLK
+M0 N_10_M0_d N_CLK_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.564e-13
++ AS=3.24e-13
+M1 N_X_M1_d N_B_M1_g N_10_M1_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.564e-13
++ AS=3.564e-13
+M2 N_10_M2_d N_A_M2_g N_X_M2_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.564e-13
++ AS=3.564e-13
+M3 N_X_M3_d N_C_M3_g N_10_M3_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.564e-13
++ AS=3.564e-13
+M4 N_10_M4_d N_D_M4_g N_X_M4_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=3.24e-13
++ AS=3.564e-13
+M5 N_X_M5_d N_CLK_M5_g N_VDD_M5_s N_VDD_M5_b p L=1.8e-07 W=3.6e-07 AD=3.564e-13
++ AS=3.24e-13
+M6 N_11_M6_d N_Y_M6_g N_X_M6_s N_VDD_M5_b p L=1.8e-07 W=3.6e-07 AD=1.296e-13
++ AS=3.564e-13
+M7 N_VDD_M7_d N_GND_M7_g N_11_M7_s N_VDD_M5_b p L=3.6e-07 W=3.6e-07 AD=3.24e-13
++ AS=1.296e-13
+*
+.include "nor4_dyn.pex.netlist.NOR4_DYN.pxi"
+*
+.ends
+*
+*
