@@ -27,6 +27,11 @@
 > 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans_pex.png" width="800">
 > 
+> VTC (parasitic extraction). 
+> Noise Margin LOW = .76 V. Noise Margin HIGH = .97 V
+> 
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/339e5388cb850b89e88cbab99f4c16b0b85d97de/standard-cells/nor2-dyn/hspice/nor2_dyn_dc.png" width="800">
+> 
 # Schematic
 > Keepers are used to hold the output at the correct level when it would otherwise float.
 > 
