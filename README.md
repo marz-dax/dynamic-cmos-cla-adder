@@ -6,6 +6,8 @@
 >
 > Synopsys HSPICE
 > 
+> Synopsys Custom WaveView
+> 
 > Mentor Graphics IC Station Schematic Editor
 > 
 > Mentor Graphics IC Station Layout Editor
