@@ -11,7 +11,7 @@ Dynamic 4-Input NAND Gate
 > 
 Dual Rail Domino 2-Input XOR Gate
 >
-> todo
+> <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/71cd1d605386c93648f7bb15641db786b0bb9842/standard-cells/dual-rail-and-nand/layout/dual_rail_and_nand_layout.png" width="300">
 > 
 Dual Rail Domino 2-Input AND Gate
 >
