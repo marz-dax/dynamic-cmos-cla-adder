@@ -1,0 +1,53 @@
+* File: dual_rail_and_nand.pex.netlist
+* Created: Sun Feb 27 01:36:39 2022
+* Program "Calibre xRC"
+* Version "v2012.2_36.25"
+* 
+.include "dual_rail_and_nand.pex.netlist.pex"
+.subckt DUAL_RAIL_AND_NAND  Y_L CLK A_L B_L A_H B_H Y_H GND VDD
+* 
+* VDD	VDD
+* GND	GND
+* Y_H	Y_H
+* B_H	B_H
+* A_H	A_H
+* B_L	B_L
+* A_L	A_L
+* CLK	CLK
+* Y_L	Y_L
+M0 N_GND_M0_d N_8_M0_g N_Y_L_M0_s N_GND_M0_b n L=1.8e-07 W=3.6e-07 AD=4.131e-13
++ AS=2.5515e-13
+M1 N_9_M1_d N_CLK_M1_g N_GND_M1_s N_GND_M0_b n L=1.8e-07 W=7.2e-07 AD=5.184e-13
++ AS=4.131e-13
+M2 N_8_M2_d N_A_L_M2_g N_9_M2_s N_GND_M0_b n L=1.8e-07 W=7.2e-07 AD=5.184e-13
++ AS=5.184e-13
+M3 N_9_M3_d N_B_L_M3_g N_8_M3_s N_GND_M0_b n L=1.8e-07 W=7.2e-07 AD=7.776e-13
++ AS=5.184e-13
+M4 N_13_M4_d N_A_H_M4_g N_9_M4_s N_GND_M0_b n L=1.8e-07 W=1.44e-06 AD=5.184e-13
++ AS=7.776e-13
+M5 N_10_M5_d N_B_H_M5_g N_13_M5_s N_GND_M0_b n L=1.8e-07 W=1.44e-06
++ AD=6.1965e-13 AS=5.184e-13
+M6 N_Y_H_M6_d N_10_M6_g N_GND_M6_s N_GND_M0_b n L=1.8e-07 W=3.6e-07
++ AD=2.5515e-13 AS=2.5515e-13
+M7 N_VDD_M7_d N_8_M7_g N_Y_L_M7_s N_VDD_M7_b p L=1.8e-07 W=7.2e-07 AD=4.131e-13
++ AS=3.6045e-13
+M8 N_8_M8_d N_CLK_M8_g N_VDD_M8_s N_VDD_M7_b p L=1.8e-07 W=3.6e-07 AD=3.078e-13
++ AS=4.131e-13
+M9 N_14_M9_d N_10_M9_g N_8_M9_s N_VDD_M7_b p L=1.8e-07 W=3.6e-07 AD=1.296e-13
++ AS=3.078e-13
+M10 N_VDD_M10_d N_GND_M10_g N_14_M10_s N_VDD_M7_b p L=3.6e-07 W=3.6e-07
++ AD=3.078e-13 AS=1.296e-13
+M11 N_10_M11_d N_CLK_M11_g N_VDD_M11_s N_VDD_M7_b p L=1.8e-07 W=3.6e-07
++ AD=3.078e-13 AS=3.078e-13
+M12 N_15_M12_d N_8_M12_g N_10_M12_s N_VDD_M7_b p L=1.8e-07 W=3.6e-07
++ AD=1.296e-13 AS=3.078e-13
+M13 N_VDD_M13_d N_GND_M13_g N_15_M13_s N_VDD_M7_b p L=3.6e-07 W=3.6e-07
++ AD=4.131e-13 AS=1.296e-13
+M14 N_Y_H_M14_d N_10_M14_g N_VDD_M14_s N_VDD_M7_b p L=1.8e-07 W=7.2e-07
++ AD=3.6045e-13 AS=4.131e-13
+*
+.include "dual_rail_and_nand.pex.netlist.DUAL_RAIL_AND_NAND.pxi"
+*
+.ends
+*
+*
