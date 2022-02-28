@@ -1,0 +1,49 @@
+* File: nand4_dyn.pex.netlist
+* Created: Mon Feb 28 15:18:44 2022
+* Program "Calibre xRC"
+* Version "v2012.2_36.25"
+* 
+.include "nand4_dyn.pex.netlist.pex"
+.subckt NAND4_DYN  CLK D C Y B A X GND VDD
+* 
+* VDD	VDD
+* GND	GND
+* X	X
+* A	A
+* B	B
+* Y	Y
+* C	C
+* D	D
+* CLK	CLK
+M0 N_9_M0_d N_CLK_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M1 N_GND_M1_d N_CLK_M1_g N_9_M1_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M2 N_10_M2_d N_D_M2_g N_9_M2_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M3 N_9_M3_d N_D_M3_g N_10_M3_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M4 N_12_M4_d N_C_M4_g N_10_M4_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M5 N_10_M5_d N_C_M5_g N_12_M5_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M6 N_13_M6_d N_B_M6_g N_12_M6_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M7 N_12_M7_d N_B_M7_g N_13_M7_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M8 N_X_M8_d N_A_M8_g N_13_M8_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M9 N_13_M9_d N_A_M9_g N_X_M9_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M10 N_X_M10_d N_CLK_M10_g N_VDD_M10_s N_VDD_M10_b p L=1.8e-07 W=3.6e-07
++ AD=3.078e-13 AS=2.5515e-13
+M11 N_14_M11_d N_Y_M11_g N_X_M11_s N_VDD_M10_b p L=1.8e-07 W=3.6e-07
++ AD=1.296e-13 AS=3.078e-13
+M12 N_VDD_M12_d N_GND_M12_g N_14_M12_s N_VDD_M10_b p L=3.6e-07 W=3.6e-07
++ AD=2.5515e-13 AS=1.296e-13
+*
+.include "nand4_dyn.pex.netlist.NAND4_DYN.pxi"
+*
+.ends
+*
+*
