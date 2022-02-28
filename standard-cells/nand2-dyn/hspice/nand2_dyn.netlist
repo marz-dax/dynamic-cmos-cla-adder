@@ -7,11 +7,11 @@
 *
 .global GND VDD
 
-        MN3 N_12_ESC1 CLK GND GND n L=2u W=12u
-        MN2 N_10_ESC2 B N_12_ESC1 GND n L=2u W=12u
-        MN1 X A N_10_ESC2 GND n L=2u W=12u
-        MP3 X Y N_5_ESC3 VDD p L=2u W=4u
-        MP2 N_5_ESC3 GND VDD VDD p L=4u W=4u
-        MP1 X CLK VDD VDD p L=2u W=4u
+        MN3 N_12_ESC1 CLK GND GND n L=2 W=12
+        MN2 N_10_ESC2 B N_12_ESC1 GND n L=2 W=12
+        MN1 X A N_10_ESC2 GND n L=2 W=12
+        MP3 X Y N_5_ESC3 VDD p L=2 W=4
+        MP2 N_5_ESC3 GND VDD VDD p L=4 W=4
+        MP1 X CLK VDD VDD p L=2 W=4
 .ends NAND2_DYN
 
