@@ -1,0 +1,33 @@
+* File: nand2_dyn.pex.netlist
+* Created: Sun Feb 27 22:08:13 2022
+* Program "Calibre xRC"
+* Version "v2012.2_36.25"
+* 
+.include "nand2_dyn.pex.netlist.pex"
+.subckt NAND2_DYN  CLK B Y A X GND VDD
+* 
+* VDD	VDD
+* GND	GND
+* X	X
+* A	A
+* Y	Y
+* B	B
+* CLK	CLK
+M0 N_8_M0_d N_CLK_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=1.08e-06 AD=3.888e-13
++ AS=4.9005e-13
+M1 N_9_M1_d N_B_M1_g N_8_M1_s N_GND_M0_b n L=1.8e-07 W=1.08e-06 AD=3.888e-13
++ AS=3.888e-13
+M2 N_X_M2_d N_A_M2_g N_9_M2_s N_GND_M0_b n L=1.8e-07 W=1.08e-06 AD=4.9005e-13
++ AS=3.888e-13
+M3 N_X_M3_d N_CLK_M3_g N_VDD_M3_s N_VDD_M3_b p L=1.8e-07 W=3.6e-07 AD=3.078e-13
++ AS=2.5515e-13
+M4 N_10_M4_d N_Y_M4_g N_X_M4_s N_VDD_M3_b p L=1.8e-07 W=3.6e-07 AD=1.296e-13
++ AS=3.078e-13
+M5 N_VDD_M5_d N_GND_M5_g N_10_M5_s N_VDD_M3_b p L=3.6e-07 W=3.6e-07
++ AD=2.5515e-13 AS=1.296e-13
+*
+.include "nand2_dyn.pex.netlist.NAND2_DYN.pxi"
+*
+.ends
+*
+*
