@@ -24,6 +24,6 @@
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/84e8756930fa21ed6a13f6c21ddf7534c88607ca/standard-cells/nand3-dyn/hspice/nand3_dyn_dc.png" width="800">
 > 
 # Layout
-> Height = 90 lambda | Width = 45 lambda
+> Height = 90 lambda | Width = 49 lambda
 >
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/84e8756930fa21ed6a13f6c21ddf7534c88607ca/standard-cells/nand3-dyn/layout/nand3_dyn_layout.png" width="800">

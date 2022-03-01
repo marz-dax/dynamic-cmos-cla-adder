@@ -9,8 +9,8 @@
 # HSpice
 > 
 > Transient output voltage waveforms.  
-> x1[w/nodes a=1 b=0 y=1].  
-> x2[w/nodes a=0 b=0 y=0].  
+> x1[w/nodes a=1 b=0].  
+> x2[w/nodes a=0 b=0].  
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans.png" width="800">
 > 
 > Transient output voltage waveforms (parasitic extraction).  
