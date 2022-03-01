@@ -1,7 +1,7 @@
 # Schematic
 >
 > Keepers are implemented the same way as the dynamic 2-Input NOR gate.  
-> The n-channel devices require folding so that I maintain the standard cell height, and reduce the difusion capacitance at the output.   
+> The n-channel devices require folding in order to maintain a standard cell height, and reduce the difusion capacitance at the output.   
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/84e8756930fa21ed6a13f6c21ddf7534c88607ca/standard-cells/nand4-dyn/schematic/nand4_dyn_sch.png" width="800">
 >
 # HSpice
