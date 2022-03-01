@@ -1,6 +1,6 @@
 # Schematic
 >
-> Keepers are implemented the same way as the dynamic 2-Input NOR gate.
+> Keepers are implemented the same way as the dynamic 2-Input NOR gate.  
 > The downfall of a Dynamic NAND gate compared to the Dynamic NOR is that we lose the constant n-channel device size as we increase the number of inputs. 
 > 
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/84e8756930fa21ed6a13f6c21ddf7534c88607ca/standard-cells/nand3-dyn/schematic/nand3_dyn_sch.png" width="800">
