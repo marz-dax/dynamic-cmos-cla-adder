@@ -14,7 +14,7 @@
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans.png" width="800">
 > 
 > Transient output voltage waveforms (parasitic extraction).  
-Falling propagation delay of 44.5ps | Rising propagation delay of 85.4ps  
+> Unloaded Output | Falling propagation delay of 44.5ps. Rising propagation delay of 85.4ps  
 > <img src="https://github.com/marz-dax/dynamic-cmos-cla-adder/blob/d9610a9983a75f9d7ac80f93380ec7d4152fe163/standard-cells/nor2-dyn/hspice/nor2_dyn_trans_pex.png" width="800">
 > 
 > VTC (parasitic extraction).  
