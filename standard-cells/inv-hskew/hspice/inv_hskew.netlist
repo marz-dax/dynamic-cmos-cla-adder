@@ -1,0 +1,13 @@
+* HSPICE netlist generated with ICnet by 'bd68' on Thu Mar  3 2022 at 16:35:37
+
+.subckt INV_HSKEW  X Y
+
+*
+* Globals.
+*
+.global GND VDD
+
+        MN1 Y X GND GND n L=2 W=2
+        MP1 Y X VDD VDD p L=2 W=4
+.ends INV_HSKEW
+
