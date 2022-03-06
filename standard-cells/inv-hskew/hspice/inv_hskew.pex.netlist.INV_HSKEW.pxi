@@ -1,0 +1,9 @@
+* File: inv_hskew.pex.netlist.INV_HSKEW.pxi
+* Created: Thu Mar  3 19:52:11 2022
+* 
+x_PM_INV_HSKEW%X N_X_M0_g N_X_M1_g X PM_INV_HSKEW%X
+x_PM_INV_HSKEW%Y N_Y_M1_d N_Y_M0_d Y PM_INV_HSKEW%Y
+x_PM_INV_HSKEW%GND N_GND_M0_b N_GND_M0_s N_GND_c_3_n GND PM_INV_HSKEW%GND
+x_PM_INV_HSKEW%VDD N_VDD_M1_b N_VDD_M1_s N_VDD_c_4_n VDD PM_INV_HSKEW%VDD
+cc_1 N_X_M0_g N_GND_c_3_n 0.0234f
+cc_2 N_X_M1_g N_VDD_c_4_n 0.0234f

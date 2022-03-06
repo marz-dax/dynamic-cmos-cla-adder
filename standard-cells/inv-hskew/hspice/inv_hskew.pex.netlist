@@ -1,0 +1,22 @@
+* File: inv_hskew.pex.netlist
+* Created: Thu Mar  3 19:52:11 2022
+* Program "Calibre xRC"
+* Version "v2012.2_36.25"
+* 
+.include "inv_hskew.pex.netlist.pex"
+.subckt INV_HSKEW  X Y GND VDD
+* 
+* VDD	VDD
+* GND	GND
+* Y	Y
+* X	X
+M0 N_Y_M0_d N_X_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=2.7e-07 AD=2.997e-13
++ AS=2.997e-13
+M1 N_Y_M1_d N_X_M1_g N_VDD_M1_s N_VDD_M1_b p L=1.8e-07 W=1.08e-06 AD=4.9005e-13
++ AS=4.9005e-13
+*
+.include "inv_hskew.pex.netlist.INV_HSKEW.pxi"
+*
+.ends
+*
+*
