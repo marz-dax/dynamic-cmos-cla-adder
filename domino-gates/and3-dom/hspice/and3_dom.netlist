@@ -1,0 +1,30 @@
+* HSPICE netlist generated with ICnet by 'bd68' on Fri Mar  4 2022 at 18:30:19
+
+.subckt AND3_DOM  CLK A B C Y
+
+*
+* Globals.
+*
+.global GND VDD
+
+.subckt NAND3_DYN  CLK A B Y C X
+
+        MN4 N_12_ESC1 CLK GND GND n L=2 W=16
+        MN3 N_8_ESC2 C N_12_ESC1 GND n L=2 W=16
+        MN2 N_4_ESC3 B N_8_ESC2 GND n L=2 W=16
+        MN1 X A N_4_ESC3 GND n L=2 W=16
+        MP3 X CLK VDD VDD p L=2 W=4
+        MP2 X Y N_21_ESC4 VDD p L=2 W=4
+        MP1 N_21_ESC4 GND VDD VDD p L=4 W=4
+.ends NAND3_DYN
+
+.subckt INV_HSKEW  X Y
+
+        MN1 Y X GND GND n L=2 W=2
+        MP1 Y X VDD VDD p L=2 W=4
+.ends INV_HSKEW
+
+        X_NAND3_DYN1 CLK A B Y C N_4_ESC3 NAND3_DYN
+        X_INV_HSKEW1 N_4_ESC3 Y INV_HSKEW
+.ends AND3_DOM
+
