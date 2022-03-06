@@ -7,7 +7,7 @@
 *
 .global GND VDD
 
-        MN1 Y X GND GND n L=2 W=2
-        MP1 Y X VDD VDD p L=2 W=4
+        MN1 Y X GND GND n L=2 W=3
+        MP1 Y X VDD VDD p L=2 W=12
 .ends INV_HSKEW
 
