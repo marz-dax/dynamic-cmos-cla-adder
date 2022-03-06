@@ -1,0 +1,52 @@
+* File: and4_dom.pex.netlist
+* Created: Sat Mar  5 12:06:04 2022
+* Program "Calibre xRC"
+* Version "v2012.2_36.25"
+* 
+.include "and4_dom.pex.netlist.pex"
+.subckt AND4_DOM  CLK D C B A Y GND VDD
+* 
+* VDD	VDD
+* GND	GND
+* Y	Y
+* A	A
+* B	B
+* C	C
+* D	D
+* CLK	CLK
+M0 N_8_M0_d N_CLK_M0_g N_GND_M0_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M1 N_GND_M1_d N_CLK_M1_g N_8_M1_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M2 N_9_M2_d N_D_M2_g N_8_M2_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M3 N_8_M3_d N_D_M3_g N_9_M3_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M4 N_10_M4_d N_C_M4_g N_9_M4_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M5 N_9_M5_d N_C_M5_g N_10_M5_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M6 N_11_M6_d N_B_M6_g N_10_M6_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M7 N_10_M7_d N_B_M7_g N_11_M7_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M8 N_7_M8_d N_A_M8_g N_11_M8_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=6.48e-13
++ AS=4.2525e-13
+M9 N_11_M9_d N_A_M9_g N_7_M9_s N_GND_M0_b n L=1.8e-07 W=9e-07 AD=4.2525e-13
++ AS=6.48e-13
+M10 N_Y_M10_d N_7_M10_g N_GND_M10_s N_GND_M0_b n L=1.8e-07 W=2.7e-07
++ AD=2.997e-13 AS=2.997e-13
+M11 N_7_M11_d N_CLK_M11_g N_VDD_M11_s N_VDD_M11_b p L=1.8e-07 W=3.6e-07
++ AD=3.078e-13 AS=2.5515e-13
+M12 N_14_M12_d N_Y_M12_g N_7_M12_s N_VDD_M11_b p L=1.8e-07 W=3.6e-07
++ AD=1.296e-13 AS=3.078e-13
+M13 N_VDD_M13_d N_GND_M13_g N_14_M13_s N_VDD_M11_b p L=3.6e-07 W=3.6e-07
++ AD=2.5515e-13 AS=1.296e-13
+M14 N_Y_M14_d N_7_M14_g N_VDD_M14_s N_VDD_M14_b p L=1.8e-07 W=1.08e-06
++ AD=4.9005e-13 AS=4.9005e-13
+*
+.include "and4_dom.pex.netlist.AND4_DOM.pxi"
+*
+.ends
+*
+*

@@ -1,0 +1,30 @@
+* File: and2_dom.pex.netlist.AND2_DOM.pxi
+* Created: Sat Mar  5 10:56:03 2022
+* 
+x_PM_AND2_DOM%CLK N_CLK_M4_g N_CLK_M0_g N_CLK_c_1_p N_CLK_c_2_p CLK
++ PM_AND2_DOM%CLK
+x_PM_AND2_DOM%B N_B_M1_g B PM_AND2_DOM%B
+x_PM_AND2_DOM%Y N_Y_M5_g N_Y_M7_d N_Y_M3_d N_Y_c_6_p Y PM_AND2_DOM%Y
+x_PM_AND2_DOM%A N_A_M2_g A PM_AND2_DOM%A
+x_PM_AND2_DOM%5 N_5_M3_g N_5_M7_g N_5_M2_d N_5_c_12_n N_5_c_13_n N_5_M5_s
++ N_5_M4_d PM_AND2_DOM%5
+x_PM_AND2_DOM%GND N_GND_M0_b N_GND_M6_g N_GND_c_22_n N_GND_M0_s N_GND_M3_s
++ N_GND_c_25_n N_GND_c_17_n N_GND_c_19_n GND N_GND_c_20_n PM_AND2_DOM%GND
+x_PM_AND2_DOM%VDD N_VDD_M4_b N_VDD_M7_b N_VDD_M7_s VDD N_VDD_M4_s N_VDD_M6_d
++ PM_AND2_DOM%VDD
+x_PM_AND2_DOM%8 N_8_M1_s N_8_M0_d PM_AND2_DOM%8
+x_PM_AND2_DOM%9 N_9_M2_s N_9_M1_d PM_AND2_DOM%9
+x_PM_AND2_DOM%10 N_10_M6_s N_10_M5_d PM_AND2_DOM%10
+cc_1 N_CLK_c_1_p N_GND_c_17_n 0.03714f
+cc_2 N_CLK_c_2_p N_GND_c_17_n 0.407015f
+cc_3 N_CLK_M0_g N_GND_c_19_n 0.0234f
+cc_4 N_CLK_c_2_p N_GND_c_20_n 0.06258f
+cc_5 N_B_M1_g N_GND_c_19_n 0.0234f
+cc_6 N_Y_c_6_p N_5_M7_g 0.04324f
+cc_7 N_Y_M5_g N_5_c_12_n 0.07428f
+cc_8 N_Y_c_6_p N_5_c_13_n 0.0856f
+cc_9 N_Y_c_6_p N_GND_c_22_n 0.04324f
+cc_10 N_A_M2_g N_GND_c_19_n 0.0234f
+cc_11 N_5_c_12_n N_GND_c_22_n 0.07428f
+cc_12 N_5_M3_g N_GND_c_25_n 0.0234f
+cc_13 N_5_M7_g VDD 0.0234f
